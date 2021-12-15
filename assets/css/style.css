@@ -1,0 +1,126 @@
+.scroll-section {
+    max-height: 110vh;
+    overflow-y: scroll;
+}
+
+.scroll-section-80 {
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+.scroll-section-60 {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+.scroll-section-50 {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+.scroll-section-40 {
+    max-height: 40vh;
+    overflow-y: scroll;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.ftco-bg-dark {
+    background: #3c312e;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    background: #000000;
+    padding: 7em 0;
+}
+
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ftco-footer .ftco-footer-widget ul li a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary {
+    background: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+    background: #fff;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a:hover {
+    color: #fff;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.btn-primary {
+    background: #3498DB !important;
+    border: 2px solid #3498DB !important;
+}
+
+.info_h {
+    font-size:smaller;
+}
+
+.botonF1{
+  width:40px;
+  height:40px;
+  border-radius:100%;
+  background:#3498DB;
+  right:0;
+  bottom:0;
+  position:absolute;
+  margin-right:10px;
+  margin-bottom:10px;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:28px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;  
+}
+
+.btn-f{
+  transition:.5s;  
+}
+.botonF1:click span{
+  transform:rotate(360deg);
+}
+.botonF1:active{
+  transform:scale(1.1);
+}
+
